@@ -7,6 +7,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+import Image from 'next/image';
+
 const Feature = () => {
   const features = [
     {
