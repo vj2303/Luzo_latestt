@@ -61,7 +61,7 @@ const Feature = () => {
 {features.map((feature, index) => (
   <SwiperSlide key={index}>
     <div className='flex flex-col items-center mb-4'>
-      <img src={feature.img} alt={feature.heading} width={80} height={163} className='sm:h-[30vh] sm:w-[60%]' />
+      <Image src={feature.img} alt={feature.heading} width={80} height={163} className='sm:h-[30vh] sm:w-[60%]' />
       <h1 className='text-[14px] sm:text-[18px] text-center py-[10px] font-medium'>{feature.heading}</h1>
       <p className='text-[12px] sm:text-[14px] text-center'>{feature.para}</p>
     </div>

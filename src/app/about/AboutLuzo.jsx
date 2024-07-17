@@ -10,7 +10,7 @@ const AboutLuzo = () => {
               
               <div className="lg:max-w-[40%] flex flex-col gap-[9px]  text-[16px] sm:leading-[30px] order-1 sm:basis-[60%]">
                   <p className='text-[#707070]'>We are a market curated place for &apos;salons, spas, dermatologists & cosmetologists</p>
-                  <p>Lorem Ipsum is simply dummy text of the printing&apos;and typesetting industry. Lorem Ipsum has been &apos;the industry's standard dummy text ever since the &apos;1500s, when an unknown printer took a galley of &apos;type and scrambled it</p>
+                  {/* <p>Lorem Ipsum is simply dummy text of the printing&apos;and typesetting industry. Lorem Ipsum has been &apos;the industry&apos;s standard dummy text ever since the &apos;1500s, when an unknown printer took a galley of &apos;type and scrambled it</p> */}
               </div>
          
                <Image src="/img/download.webp" className="rounded-xl sm:py-none py-[20px] lg:max-w-[50%] order-3 " alt="img" width={636} height={477}/>
